@@ -1,0 +1,61 @@
+/* 
+    Paleta de colores https://colorhunt.co/palette/0a4d6808839505bfdb00ffca 
+*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    /*border: 2px solid gray;*/
+}
+
+body {
+    color: brown;
+    border-radius: 5px;
+    margin: 0;
+}
+
+div h2, h3 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+th, table,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+.col-id {
+    width: 30px;
+}
+
+.content {
+    width: 300px;
+}
+
+.img-header {
+    width: 100%;
+}
+
+#title1 {
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
