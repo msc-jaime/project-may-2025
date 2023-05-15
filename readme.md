@@ -24,4 +24,4 @@
 
 Desarrollar diseño en penpot usando una pagina web de referencia, enviar al correo electronico el resultado del proyecto (*.penpot) y adicionar un archivo PDF con minimo dos vistas más la paleta de colores y de fuentes.
 
-Correo: msc-jaime@outlook.com
+Correo: msc.jaime@outlook.com

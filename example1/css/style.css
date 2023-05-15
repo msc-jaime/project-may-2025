@@ -5,21 +5,27 @@
 * {
     font-family: 'Open Sans', sans-serif;
     /*border: 2px solid gray;*/
+    box-sizing: border-box;
 }
 
 body {
     color: brown;
     border-radius: 5px;
     margin: 0;
+    text-align: justify;
+    font-size: 16px;
 }
 
 div h2, h3 {
-    font-size: 60px;
+    font-size: 24px;
+    text-transform: capitalize;
 }
 
-h2 {
-    font-size: 50px;
+h1 {
+    text-align: center;
+    text-transform: uppercase;
 }
+
 
 a {
     text-decoration: none;
@@ -47,14 +53,43 @@ tr:nth-child(even) {
     width: 100%;
 }
 
-#title1 {
-    font-size: 100px;
+
+
+.nota {
+    
+    /*
+    border: 5px solid black;
+    border-width: 5px;
+    border-style: solid dotted dashed double;
+    border-color:  blue black green red;
+    
+    border-radius: 10px 0 0 0;
+    */
+    border-left-style: solid;
+    border-color: red;
+    border-width: 5px;
+
+    background-color: tomato;
+
+    color: #f1f1f1;
+    
+    padding: 20px 10px;
+    margin: 10px 20px;
 }
 
 
+.icons {
+    width: 30px;
+}
 
+.page {
+    margin: 0 auto;
+    max-width: 400px;
+}
 
-
+#title1 {
+    font-size: 48px;
+}
 
 
 

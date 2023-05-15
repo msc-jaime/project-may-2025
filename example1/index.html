@@ -24,9 +24,8 @@
 </head>
 
 <body style="background-color: rgb(230, 230, 230);">
-
   <!-- Header -->
-  <div class="">
+  <div class="page">
     <figure>
       <img src="https://placehold.co/1200x400" class="img-header" alt="#" loading="lazy">
     </figure>
@@ -42,7 +41,12 @@
       nulla labore error dicta illo accusantium voluptatibus facilis quos! Possimus eaque suscipit dolor doloribus
       voluptas iusto earum sapiente.</p>
 
-    <img src="https://placehold.co/600x400" alt="#">
+    <p class="nota">
+      <img src="img/x.svg" alt="" class="icons">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum hic placeat neque ut sint, porro velit id
+      sequi quas?
+    </p>
+    <img src="https://placehold.co/600x400" alt="#" style="width: 100%;">
     <p>Lorem ipsum dolor <i>sit amet consectetur</i> adipisicing elit. <mark>corrupti delectus autem</mark> sit officiis
       omnis non ullam! Rem sequi explicabo, quam doloremque porro consequatur magni recusandae non eius asperiores fugit
       vitae doloribus at nobis ut, fuga, commodi cumque. Nostrum consectetur sequi non odit veniam at, rem repudiandae
@@ -127,7 +131,7 @@
       </tr>
     </table>
     <br>
-  
+
 
     <!-- Footer -->
     <ul>
@@ -176,87 +180,88 @@
       <dt>Milk</dt>
       <dd>white cold drink</dd>
     </dl>
+
+
+    <iframe style="width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/Jc6fTtEqdvc" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+    <script>
+      document.getElementById("title1").innerHTML = "Have a nice day!";
+      document.getElementById("title1").style.fontWeight = "700";
+    </script>
+
+    <form action="#">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="age">Edad:</label>
+      <input type="number" id="age" name="age" min="12">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="date">Fecha:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="datetime">Hora y fecha:</label>
+      <input type="datetime-local" id="datetime" name="datetime" required>
+
+      <p>Color favorito:</p>
+
+      <input type="radio" id="red" name="color-favorito">
+      <label for="red">Rojo:</label><br>
+
+      <input type="radio" id="blue" name="color-favorito">
+      <label for="blue">Blue:</label><br>
+
+      <input type="radio" id="green" name="color-favorito">
+      <label for="green">Verde:</label><br>
+
+      <input type="radio" id="white" name="color-favorito">
+      <label for="white">Blanco:</label><br>
+
+      <input type="radio" id="black" name="color-favorito">
+      <label for="black">Negro:</label><br>
+
+      <p>Pelicuas o series:</p>
+
+      <input type="checkbox" id="movie" name="movie">
+      <label for="black">Peliculas:</label><br>
+
+      <input type="checkbox" id="serie" name="serie" required>
+      <label for="black">Series:</label><br>
+
+      <label for="black">Selecionar color:</label>
+      <input type="color" name="" id=""><br>
+
+      <label for="black">Foto:</label>
+      <input type="file" name="file1" id="file1"><br>
+
+      <input type="hidden" name="">
+
+      <label for="contraseña">Foto:</label>
+      <input type="password" name="contraseña" id="contraseña">
+
+
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option id="" value="volvo" selected>Seleccionar ...</option>
+        <option id="1" value="volvo">Volvo</option>
+        <option id="2" value="saab">Saab</option>
+        <option id="3" value="fiat">Fiat</option>
+        <option id="10" value="audi">Audi</option>
+      </select>
+      <br>
+
+      <label for="resumen">Resumen:</label>
+      <textarea id="resumen" name="message" rows="10" cols="30"></textarea>
+
+      <br><br>
+
+      <input type="time" name="" id="">
+      <input type="submit" value="Enviar">
+      <!--<button type="submit">Enviar</button> -->
+    </form>
+    <img src="img/nota1.svg" alt="notas" style="width: 100%;">
   </div>
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc6fTtEqdvc" title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-
-  <script>
-    document.getElementById("title1").innerHTML = "Have a nice day!";
-    document.getElementById("title1").style.fontWeight = "700";
-  </script>
-
-  <form action="#">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="age">Edad:</label>
-    <input type="number" id="age" name="age" min="12">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="date">Fecha:</label>
-    <input type="date" id="date" name="date" required>
-    <label for="datetime">Hora y fecha:</label>
-    <input type="datetime-local" id="datetime" name="datetime" required>
-
-    <p>Color favorito:</p>
-
-    <input type="radio" id="red" name="color-favorito">
-    <label for="red">Rojo:</label><br>
-
-    <input type="radio" id="blue" name="color-favorito">
-    <label for="blue">Blue:</label><br>
-
-    <input type="radio" id="green" name="color-favorito">
-    <label for="green">Verde:</label><br>
-
-    <input type="radio" id="white" name="color-favorito">
-    <label for="white">Blanco:</label><br>
-
-    <input type="radio" id="black" name="color-favorito">
-    <label for="black">Negro:</label><br>
-
-    <p>Pelicuas o series:</p>
-
-    <input type="checkbox" id="movie" name="movie">
-    <label for="black">Peliculas:</label><br>
-
-    <input type="checkbox" id="serie" name="serie" required>
-    <label for="black">Series:</label><br>
-
-    <label for="black">Selecionar color:</label>
-    <input type="color" name="" id=""><br>
-
-    <label for="black">Foto:</label>
-    <input type="file" name="file1" id="file1"><br>
-
-    <input type="hidden" name="">
-
-    <label for="contraseña">Foto:</label>
-    <input type="password" name="contraseña" id="contraseña">
-
-
-    <label for="cars">Choose a car:</label>
-    <select id="cars" name="cars">
-      <option id="" value="volvo" selected>Seleccionar ...</option>
-      <option id="1" value="volvo">Volvo</option>
-      <option id="2" value="saab">Saab</option>
-      <option id="3" value="fiat">Fiat</option>
-      <option id="10" value="audi">Audi</option>
-    </select>
-    <br>
-
-    <label for="resumen">Resumen:</label>
-    <textarea id ="resumen" name="message" rows="10" cols="30"></textarea>
-
-    <br><br>
-
-    <input type="time" name="" id="">
-    <input type="submit" value="Enviar">
-    <!--<button type="submit">Enviar</button> -->
-  </form>
-  <img src="img/nota1.svg" alt="notas" style="width: 100%;">
 </body>
 
 </html>
