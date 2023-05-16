@@ -1,6 +1,9 @@
 /* 
     Paleta de colores https://colorhunt.co/palette/0a4d6808839505bfdb00ffca 
 */
+/*
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*/
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -24,11 +27,6 @@ div h2, h3 {
 h1 {
     text-align: center;
     text-transform: uppercase;
-}
-
-
-a {
-    text-decoration: none;
 }
 
 th, table,
@@ -91,6 +89,44 @@ tr:nth-child(even) {
     font-size: 48px;
 }
 
+.btn {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.3em;
+    padding: 0.2em 1.5em;
+    width: 200px;
+    display: block;
+}
+
+.btn-primary:visited, .btn-primary:link  {
+    background-color: MediumSeaGreen;
+    border: 1px solid rgb(48, 143, 91);
+}
+
+.btn-primary:hover, .btn-primary:active  {
+    background-color: rgb(48, 143, 91);
+    border: 1px solid rgb(48, 143, 91);
+}
 
 
+.btn-delete:visited, .btn-delete:link  {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(230, 88, 63);
+}
 
+.btn-delete:hover, .btn-delete:hover  {
+    background-color: rgb(197, 76, 55);
+    border: 2px solid rgb(197, 76, 55);
+    color: #f1f1f1;
+}
+
+p {
+    list-style-type: none;
+}
+
+ol > li {
+    list-style-type: none;
+    text-align: right;
+}
