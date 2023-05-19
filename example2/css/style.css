@@ -1,15 +1,22 @@
 :root {
-    --bg-page: rgb(2,0,36);
+    /*--bg-page: rgb(2,0,36);*/
     --color1: #025464;
     --color2: #E57C23;
     --color3: #E8AA42;
     --color4: #F8F1F1;
-    --text-color:  #f1f1f1;
 }
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    background-color: var(--bg-page);
-    color: var(--text-color);
+    background-color: var(--color4);
+    color: var(rgb(2,0,36));
 }
 
 h1 {
@@ -18,15 +25,19 @@ h1 {
 
 h2 {
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 header {
-    height: 100px;
-    background-color: var(--color2);
+    height: 150px;
+    background-color: var(--color1);
+    text-align: center;
+    line-height: 150px;
 }
 
 nav {
@@ -37,27 +48,44 @@ img {
     width: 100%;
 }
 
+article {
+    padding: 15px 0;
+}
+
+footer {
+    background-color: var(--color1);
+    color: var(--color4);
+    padding: 20px 0;
+}
+
 .page {
     margin: 0 auto;
     width: 80%;
-    background-color: rgb(2,0,50) ;
 }
 
-footer .info {
-    width: 50%;
-    display: inline-block;
+.menu {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    
 }
-
 
 .item-menu {
     display: inline-block;
     padding: 5px 10px;
     list-style-type: none;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.item-menu:hover {
+    background-color: var(--color2);
 }
 
 .item-menu a {
     text-decoration: none;
-    font-size: 1.7em;
+    font-size: 1.3em;
     color: var(--color1);
 }
 
@@ -67,4 +95,54 @@ footer .info {
 
 .float-left {
     float: left;
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+}
+
+.info-full {
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    width: 48%;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.input-element {
+    width: 100%;
+}
+
+.input-element input, .input-element textarea {
+    width: inherit;
+}
+
+.google-map {
+    width: 100%;
+}
+
+p.info-copyright {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.section-service {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+
+.info-flex {
+    display: flex;
+}
+.icon-service {
+    font-size: 40px;
+}
+.info-service {
+    text-align: center;
+    width: 33%;
+    padding: 0 10px;
 }
